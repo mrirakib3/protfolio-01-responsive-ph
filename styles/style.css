@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared or common style */
+.text-primary {
+  color: #FD6E0A;
+}
+.dark-2{
+  color: #474747;
+}
+
+/* Nav styles */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 38px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 58px;
+  margin-right: 43px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
