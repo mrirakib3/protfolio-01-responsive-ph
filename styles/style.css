@@ -8,37 +8,123 @@
     "wdth" 100;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* shared or common style */
 .text-primary {
   color: #FD6E0A;
+  color: rgb(80, 80, 160);
 }
 .dark-2{
   color: #474747;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  background: rgb(80, 80, 160);;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+  border: none;
+}
+
+/* header styles */
+.header {
+  background-image: url(../images/developer_small.png), url(../images/header_bg_blue.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  /* background-position-y: 5%, bottom right; */
 }
 
 /* Nav styles */
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 20px 105px;
 }
 
 .nav-title {
   font-weight: 800;
-  font-size: 38px;
+  font-size: 55px;
+  color: rgb(117, 117, 117);
 }
 
 nav ul {
   display: flex;
+  align-items: center;
 }
 
 nav ul li {
   list-style: none;
-  font-size: 58px;
+  font-size: 20px;
   margin-right: 43px;
+  color: rgb(71, 71, 71);
+  font-weight: 400;
 }
 
 nav li a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
+
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.banner-content {
+  max-width: 500px;
+  margin: 160px 0 157px 105px;
+  max-height: 305px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.banner-greetings {
+  color: rgb(71, 71, 71);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.banner-title {
+  color: rgb(24, 24, 24);
+  font-size: 75px;
+  font-weight: 700;
+  margin: 5px 0 20px 0;
+  color: rgb(80, 80, 160);
+}
+
+.banner-discription {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}  
+
+#btn-contact {
+  margin-left: 20px;
+  background: none;
+  color: #FD6E0A;
+  border: 2px solid #FD6E0A;
+  color: rgb(80, 80, 160);;
+  border: 2px solid rgb(80, 80, 160);;
+  padding: 16px 35px;
+}
+
+.banner-profile-pic {
+  width: 500px;
+  height: 577px;
+  margin-top: 45px;
+  margin-right: 35px;
+}
+
 
