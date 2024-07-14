@@ -39,6 +39,9 @@
   color: #757575;
 }
 
+.text-center {
+  text-align: center;
+}
 
 /* header styles */
 .header {
@@ -178,6 +181,120 @@ nav li a {
   font-size: 16px;
   color: #474747;
   font-weight: bold;
+}
+
+/* What I do */
+.skills {
+  margin: 110px 0;
+}
+
+.skills-description {
+  padding: 25px 96px 42px 96px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 20px;
+}
+
+.skill-box {
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* My resume section style */
+.resume-container {
+  display: flex;
+  gap: 20px;
+}
+
+.resume-column-title {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.experience-title {
+  color: rgb(71, 71, 71);
+  font-size: 21px;
+  font-weight: 700;
+  margin: 25px 0 8px 0;
+  }
+
+.experience-sub-title {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  }
+
+.experience-description {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.btn-download {
+  margin: 35px 0 110px 0;
+}
+
+/* footer style */
+footer {
+  display: flex;
+  gap: 100px;
+  padding: 0 194px 0 194px;
+  max-height: 710px;
+}
+
+.footer-column-title {
+  padding: 110px 0 25px 0;
+}
+
+.footer-icon {
+  margin-right: 21px;
+}
+
+footer input[type="text"], footer input[type="email"] {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: 400;
+  width: 460px;
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  outline: none;
+  padding-left: 25px;
+}
+
+.from-message {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: 400;
+  width: 485px;
+  height: 180px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  outline: none;
+}
+
+textarea::placeholder {
+  font-family: Open Sans;
+  font-size: 14px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+.footer-btn {
+  margin-bottom: 110px;
 }
 
 
