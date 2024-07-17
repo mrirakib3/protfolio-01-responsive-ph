@@ -139,6 +139,10 @@ nav li a {
   padding: 13px 23px;
 }
 
+i{
+  margin-right: 15px;
+}
+
 .banner-profile-pic {
   width: 492px;
   height: 570px;
@@ -352,13 +356,17 @@ textarea::placeholder {
   }
 
   header{
-    padding-bottom: 120px;
+    padding-bottom: 180px;
     border-radius: 10px;
   }
 
   .header{
     background-position-y: 339px;
     background-size: 170%;
+  }
+
+  #btn-contact{
+    margin: 20px 0 0 0;
   }
 
   footer {
@@ -372,6 +380,7 @@ textarea::placeholder {
 
   footer{
     padding: 20px;
+    border-radius: 10px;
   }
 
   .footer-column{
