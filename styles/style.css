@@ -22,20 +22,20 @@
   border-radius: 5px;
   background: rgb(80, 80, 160);;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   padding: 15px 30px;
   border: none;
 }
 
 .section-title {
-  font-size: 29px;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #181818;
 }
 
 .section-description {
-  font-size: 15px;
+  font-size: 1rem;
   color: #757575;
 }
 
@@ -66,7 +66,7 @@ nav {
 
 .nav-title {
   font-weight: 800;
-  font-size: 38px;
+  font-size: 2.4rem;
   color: rgb(117, 117, 117);
 }
 
@@ -81,7 +81,7 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-right: 43px;
   color: rgb(71, 71, 71);
   font-weight: 400;
@@ -89,7 +89,7 @@ nav ul li {
 
 nav li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 /* banner styles */
@@ -109,13 +109,13 @@ nav li a {
 
 .banner-greetings {
   color: rgb(71, 71, 71);
-  font-size: 38px;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 
 .banner-title {
   color: rgb(24, 24, 24);
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 700;
   margin: 5px 0 20px 0;
   color: rgb(80, 80, 160);
@@ -123,7 +123,7 @@ nav li a {
 
 .banner-discription {
   color: rgb(117, 117, 117);
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 25px;
   margin-bottom: 30px;
@@ -180,13 +180,13 @@ i{
 }
 
 .item-title {
-  font-size: 16px;
+  font-size: 1rem;
   color: #757575;
   line-height: 25px;
 }
 
 .item-description {
-  font-size: 16px;
+  font-size: 1rem;
   color: #474747;
   font-weight: bold;
 }
@@ -219,14 +219,14 @@ i{
 
 .resume-column-title {
   color: rgb(71, 71, 71);
-  font-size: 25px;
+  font-size: 1.6rem;
   font-weight: 700;
   margin-top: 60px;
 }
 
 .experience-title {
   color: rgb(71, 71, 71);
-  font-size: 21px;
+  font-size: 1.3rem;
   font-weight: 700;
   margin: 25px 0 8px 0;
   }
@@ -234,14 +234,14 @@ i{
 .experience-sub-title {
   color: rgb(117, 117, 117);
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 16px;
   }
 
 .experience-description {
   color: rgb(117, 117, 117);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 25px;
@@ -275,7 +275,7 @@ footer input[type="text"],
 footer input[type="email"],
 textarea {
   color: rgb(117, 117, 117);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   width: 100%;
   height: 64px;
@@ -294,14 +294,14 @@ textarea {
 
 textarea::placeholder {
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .footer-btn {
   margin-bottom: 110px;
 }
 
-/* responsive media query */
+/* small screen responsive media query */
 .hide{
   display: none;
 }
@@ -339,7 +339,19 @@ textarea::placeholder {
     margin-right: 0;
   }
 
-  /* header-responsive-styles */
+  header{
+    padding-bottom: 180px;
+    border-radius: 10px;
+  }
+
+  .header{
+    background-position-y: 339px;
+    background-size: 170%;
+  }
+
+  #btn-contact{
+    margin: 20px 0 0 0;
+  }
 
   .banner-content{
     padding: 50px 20px;
@@ -355,18 +367,18 @@ textarea::placeholder {
     display: none;
   }
 
-  header{
-    padding-bottom: 180px;
+  
+  .about {
     border-radius: 10px;
+    padding: 50px 30px;
   }
 
-  .header{
-    background-position-y: 339px;
-    background-size: 170%;
+  .about-items{
+    gap: 30px;
   }
-
-  #btn-contact{
-    margin: 20px 0 0 0;
+  
+  .about-description  {
+    margin: 25px 0 60px 0;
   }
 
   footer {
@@ -406,17 +418,94 @@ textarea::placeholder {
     margin-bottom: 20px;
   }
 
-  .about {
-    border-radius: 10px;
-    padding: 50px 30px;
-  }
-
-  .about-items{
-    gap: 30px;
-  }
-  
-  .about-description  {
-    margin: 25px 0 60px 0;
-  }
 
 }
+
+
+
+  /* medium screen responsive media query */
+
+  @media screen and (min-width: 576px) and (max-width:990px) {
+    .banner-left-side-pic {
+      display: none;
+    }
+  
+    body{
+      padding: 20px;
+    }
+
+    nav {
+      justify-content: space-between;
+      margin: 0px 30px 0 35px;
+    }
+
+    nav ul li {
+      margin: 0 0 0 30px;
+    }
+
+    
+  header{
+    border-radius: 10px;
+    border: none;
+  }
+
+  .header{
+    background-position-y: 392px;
+    background-size: 85%;
+  }
+
+  #btn-contact{
+    margin: 20px 0 0 0;
+  }
+
+    .banner-content{
+      margin: 100px 0 0 30px;
+    }
+
+    .banner-profile-pic {
+      width: 70%;
+      height: 70%;
+      padding-top: 53px;
+    }
+
+    .about {
+      border-radius: 10px;
+      padding: 50px 40px;
+    }
+  
+    .about-items{
+      gap: 25px;
+    }
+    
+    .about-description  {
+      margin: 25px 0 60px 0;
+      padding: 0 20px;
+    }
+
+    .skills-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resume-container {
+      gap: 30px;
+    }
+
+    footer{
+      padding: 0 30px;
+      gap: 50px;
+      border-radius: 10px;
+    }
+
+    .footer-column{
+      padding-right: 20px;
+    }
+    .footer-column-title{
+      padding-top: 50px;
+    }
+
+    .footer-btn {
+      margin-bottom: 50px;
+    }
+
+  }
